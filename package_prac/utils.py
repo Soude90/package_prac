@@ -30,7 +30,7 @@ def get_charcounts1(x):
 	return len(x)
 
 def get_avg_wordlength1(x):
-	count = _get_charcounts(x)/_get_wordcounts(x)
+	count = get_charcounts1(x)/get_wordcounts1(x)
 	return count
 
 def get_stopwords_counts1(x):
